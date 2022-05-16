@@ -2,32 +2,31 @@
   <div class="container">
     <div class="caravan pt-5">
       <div class="chartak-intro d-flex justify-content-between">
-        <h5 style="text-transform: uppercase" class="chartak__name" v-for="t in translate" :key="t.id" >ЗАтерянный караван</h5>
+        <h5 style="text-transform: uppercase" class="chartak__name" v-for="t in translate" :key="t.id" >{{t[`name_${$i18n.locale}`]}}</h5>
         <button v-for="t in translate" :key="t.id" class="chartak-btn" >{{t[`btn_${$i18n.locale}`]}}</button>
       </div>
       <div class="chartak-img pt-5 pb-5">
         <img style="width: 100%; height: 100%" src="../assets/images/sahara.png" alt="#">
       </div>
-      <h5 style="font-weight: 700; font-size: 16px">С чего всё началось</h5>
+      <h5 v-for="t in translate" :key="t.id" style="font-weight: 700; font-size: 16px">{{t[`title_${$i18n.locale}`]}}</h5>
       <div class="row">
         <div class="col-xxl-4 col-lg-6 col-sm-12 col-12">
           <img style="width: 100%; height: 100%" src="../assets/images/mapSahara.png" alt="#">
         </div>
         <div class="col-xxl-8 col-lg-6 col-sm-12">
-            <p class="information__text">
-              Старый и мудрый дервиш, которого я повстречал на пыльном перекрестке одного из старинных городов востока, взамен на горячую лепешку с кусочком фисташковой халвы, поведал мне очень интересную историю, с которой я хочу поделиться с тобой, мой дорогой Гость!
+            <p v-for="t in translate" :key="t.id" class="information__text">
+              {{t[`text_${$i18n.locale}`]}}
             <br><br>
-              В те далекие времена, когда еще постоялые дворы и караван сараи не хватали звезд с неба, а ковры-самолеты повсеместно использовались в бизнес-авиации, грозный Чингиз-хан направил своего верного посла Махмуда в Хиву к Хорезмшаху. В знак дружбы и уважения к монгольскому хану, Хорезмшах одарил посла всевозможными подарками, и велел снарядить целый караван подарков для Чингизхана. Чего только не было в этом караване - от нежнейшего восточного шелка, до драгоценных камней, серебра и золота.
+              {{t[`text1_${$i18n.locale}`]}}
             <br><br>
-              Очевидцы утверждали, что на солнце караван светился даже ярче чем самый нарядный костюм Филипа Бедросовича (да убережет Аллах его от судебных исков правообладателей, ойнама-шикадам-шикадам).
-              Но в пути караван постигло несчастье. Одни говорят, что на него напали разбойники, другие утверждают, что это были налоговые инспекторы, третьи и вовсе клянутся, что во всем виновато НАТО. Но так или иначе, не дошел караван до Чингизхана, пропал, сгинут, исчез. Как сквозь землю провалился. Со всеми шелками, серебром, золотом и шарманкой Николая Баскова.
+              {{t[`text2_${$i18n.locale}`]}}
             </p>
         </div>
       </div>
       <div>
-        <p class="information__text pt-3 pb-5">Рассказав эту историю, старый и мудрый дервиш протянул мне свиток из хорошей, белой, качественной финской бумаги (сейчас уже такую не делают). Развернув его, я увидел дорожную карту, с обозначениями городов, мечетей, медресе и постоялых дворов. «Вот твоя карта сокровищ» сказал старец и скрылся в толпе людей спешно идущих на призыв муэдзина к вечерней молитве.
+        <p v-for="t in translate" :key="t.id" class="information__text pt-3 pb-5">{{t[`newText_${$i18n.locale}`]}}
           <br><br>
-          Ну что, мой дорогой Гость, готов ли ты отправиться вместе со мной на поиски затерянного каравана Харезмшаха? Если да, то поторапливайся, наша первая остановка – Таинственная ХИВА!
+          {{t[`newText1_${$i18n.locale}`]}}
         </p>
       </div>
     </div>
@@ -38,11 +37,10 @@
     <div class="container">
       <div class="row pb-5 pt-5">
         <h6 class="pb-3" style="font-size: 16px; font-weight: 700">U-TRAVEL® (ООО «ATTO-TRAVEL»)</h6>
-        <p class="information__text">предлагает Вам эксклюзивные туры по Узбекистану, а также в страны Европы, Азии, Южной и Северной Америки, Австралии. Вы можете ознакомиться, выбрать и приобрести на нашем сайте путевки и туры в Китай, Турцию, Таиланд, ОАЭ, Саудовскую Аравию, Германию, Испанию, Италию, Англию и другие страны. Также вы можете приобретать авиабилеты практически по всем направлениям не выходя из дома или Вашего офиса. Наша команда организует для Вас и Вашей семьи незабываемый отдых в лучших странах мира.
+        <p v-for="t in translate" :key="t.id"  class="information__text">{{t[`footerText_${$i18n.locale}`]}} <br><br>
+          {{t[`footerText1_${$i18n.locale}`]}}
           <br><br>
-          Ваш комфорт и хорошее настроение – наша первостепенная задача, и поэтому приобретая любой билет, тур или другую продукцию наших партнеров, вы автоматически становитесь участником программы лояльности.
-          <br><br>
-          U-TRAVEL® – Ваш надежный путеводитель в мир комфорта и счастья!
+          {{t[`footerText2_${$i18n.locale}`]}}
         </p>
       </div>
     </div>
@@ -50,7 +48,7 @@
 </template>
 
 <script>
-import { chartakImages, chartakTranslate } from "@/Constants JS/zaminImages";
+import {caravanMAin} from "@/Constants JS/zaminImages";
 import LostCaravan from "@/components/LostCaravan/LostCaravan";
 import TableCaravan from "@/components/LostCaravan/TableCaravan"
 
@@ -58,8 +56,7 @@ export default {
   components: {LostCaravan, TableCaravan},
   data() {
     return{
-      images: chartakImages,
-      translate: chartakTranslate,
+      translate: caravanMAin,
     }
   }
 }

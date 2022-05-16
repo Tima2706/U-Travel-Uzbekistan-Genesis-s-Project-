@@ -306,3 +306,116 @@ export const khivaTranslate = [
         sub_en: 'MORE DETAILED INFORMATION ABOUT THE TOUR CAN BE OBTAINED IN THE "U-TRAVEL" OFFICE'
     }
 ]
+export const caravanMAin = [
+    {
+        id: 1,
+        btn_ru: 'Узнать цены',
+        btn_en: 'Check price',
+        btn_uz: 'Narxlarni tekshiring',
+
+        name_ru: 'ЗАТЕРЯННЫЙ КАРАВАН',
+        name_uz: 'YO\'QILGAN KARVON',
+        name_en: 'LOST CARAVAN',
+
+        title_ru: 'С чего всё началось',
+        title_uz: 'Hammasi qanday boshlandi',
+        title_en: 'How it all started',
+
+        text_ru: ' Старый и мудрый дервиш, которого я повстречал на пыльном перекрестке одного из старинных городов востока, взамен на горячую лепешку с кусочком фисташковой халвы, поведал мне очень интересную историю, с которой я хочу поделиться с тобой, мой дорогой Гость!',
+        text_en: 'An old and wise dervish, whom I met at the dusty crossroads of one of the ancient cities of the East, in exchange for a hot cake with a piece of pistachio halva, told me a very interesting story, which I want to share with you, my dear Guest!',
+        text_uz: 'Sharqning qadimiy shaharlaridan birining chang bosgan chorrahasida bir parcha pista holvasi bilan issiq tort evaziga uchratgan keksa va donishmand darvesh menga juda qiziq voqeani aytib berdi, uni sizlar bilan bo‘lishmoqchiman. , aziz mehmonim!',
+
+        text1_ru: 'В те далекие времена, когда еще постоялые дворы и караван сараи не хватали звезд с неба, а ковры-самолеты повсеместно использовались в бизнес-авиации, грозный Чингиз-хан направил своего верного посла Махмуда в Хиву к Хорезмшаху. В знак дружбы и уважения к монгольскому хану, Хорезмшах одарил посла всевозможными подарками, и велел снарядить целый караван подарков для Чингизхана. Чего только не было в этом караване - от нежнейшего восточного шелка, до драгоценных камней, серебра и золота.',
+        text1_en: 'In those distant times, when inns and caravanserais still lacked stars from the sky, and flying carpets were widely used in business aviation, the formidable Genghis Khan sent his faithful ambassador Mahmud to Khiva to Khorezmshah. As a sign of friendship and respect for the Mongol Khan, Khorezmshah gave the ambassador all kinds of gifts, and ordered to equip a whole caravan of gifts for Genghis Khan. What was not in this caravan - from the most delicate oriental silk, to precious stones, silver and gold.',
+        text1_uz: 'Mehmonxona va karvonsaroylarda hali osmondan yulduzlar yetishmagan, biznes aviatsiyasida uchar gilamlar keng qo‘llanilgan o‘sha olis zamonlarda, buyuk Chingizxon o‘zining sodiq elchisi Mahmudni Xivaga Xorazmshohga yubordi. Xorazmshoh moʻgʻul xoni bilan doʻstlik va hurmat belgisi sifatida elchiga har xil sovgʻalar berib, Chingizxon uchun butun bir karvon sovgʻa-salomlarni jihozlashni buyuradi. Bu karvonda nima yo‘q edi – eng nozik sharqona ipakdan tortib, qimmatbaho toshlar, kumush va oltinlargacha.',
+
+        text2_ru: 'Очевидцы утверждали, что на солнце караван светился даже ярче чем самый нарядный костюм Филипа Бедросовича (да убережет Аллах его от судебных исков правообладателей, ойнама-шикадам-шикадам).\n' +
+            'Но в пути караван постигло несчастье. Одни говорят, что на него напали разбойники, другие утверждают, что это были налоговые инспекторы, третьи и вовсе клянутся, что во всем виновато НАТО. Но так или иначе, не дошел караван до Чингизхана, пропал, сгинут, исчез. Как сквозь землю провалился. Со всеми шелками, серебром, золотом и шарманкой Николая Баскова.',
+        text2_uz: '\'Guvohlarning ta\'kidlashicha, karvon quyoshda Filipp Bedrosovichning eng nafis libosidan ham yorqinroq porlagan (Alloh uni mualliflik huquqi egalarining da\'volaridan oinama-shikadam-shikadam asrasin).\\n\' +\n' +
+            '            — Lekin yo\'lda karvon baxtsizlikka duch keldi. Ba\'zilar unga qaroqchilar hujum qilganini aytishsa, boshqalar soliq inspektori ekanliklarini da\'vo qilishsa, boshqalari hamma narsaga NATO aybdor deb qasam ichishadi. Ammo u yoki bu karvon Chingizxonga yetib bormadi, g‘oyib bo‘ldi, halok bo‘ldi, g‘oyib bo‘ldi. U yerga tushgandek. Hamma shoyilar, kumushlar, oltinlar va Nikolay Baskovning shov-shuvliligi bilan.',
+        text2_en: '\'Eyewitnesses claimed that in the sun the caravan shone even brighter than the most elegant costume of Philip Bedrosovich (may Allah save him from lawsuits from the copyright holders, oinama-shikadam-shikadam).\\n\' +\n' +
+            '            \'But on the way the caravan met with misfortune. Some say that robbers attacked him, others claim that they were tax inspectors, and still others swear that NATO is to blame for everything. But one way or another, the caravan did not reach Genghis Khan, disappeared, perished, disappeared. Like it fell through the ground. With all the silks, silver, gold, and Nikolai Baskov\'s hurdy-gurdy.\',',
+
+        newText_ru: 'Рассказав эту историю, старый и мудрый дервиш протянул мне свиток из хорошей, белой, качественной финской бумаги (сейчас уже такую не делают). Развернув его, я увидел дорожную карту, с обозначениями городов, мечетей, медресе и постоялых дворов. «Вот твоя карта сокровищ» сказал старец и скрылся в толпе людей спешно идущих на призыв муэдзина к вечерней молитве.',
+        newText_uz: 'Bu voqeani aytib bo‘lgach, keksa va donishmand darvesh menga yaxshi, oq, sifatli fin qog‘ozidan yasalgan o‘ramni uzatdi (endi ular buni qilmaydilar). Uni kengaytirib, shaharlar, masjidlar, madrasalar va mehmonxonalar ko\'rsatilgan yo\'l xaritasini ko\'rdim. — Mana, xazina xaritangiz, — dedi oqsoqol va muazzinning shom azoniga shoshilayotgan olomon orasiga g‘oyib bo‘ldi.',
+        newText_en: 'Having told this story, the old and wise dervish handed me a scroll made of good, white, high-quality Finnish paper (they don’t make this anymore). Expanding it, I saw a road map, with the designations of cities, mosques, madrasahs and inns. “Here is your treasure map,” the elder said and disappeared into the crowd of people hurrying to the muezzin’s call for evening prayer.',
+
+        newText2_ru: 'Ну что, мой дорогой Гость, готов ли ты отправиться вместе со мной на поиски затерянного каравана Харезмшаха? Если да, то поторапливайся, наша первая остановка – Таинственная ХИВА!',
+        newText2_en: 'Well, my dear Guest, are you ready to go with me in search of the lost caravan of Harezmshah? If yes, then hurry up, our first stop is Mysterious KHIVA!',
+        newText2_uz: 'Xo‘sh, aziz Mehmonim, men bilan adashgan Harazmshoh karvonini izlashga tayyormisiz? Ha bo\'lsa, shoshiling, bizning birinchi bekatimiz Sirli XIVA!',
+
+        footerText_ru: 'предлагает Вам эксклюзивные туры по Узбекистану, а также в страны Европы, Азии, Южной и Северной Америки, Австралии. Вы можете ознакомиться, выбрать и приобрести на нашем сайте путевки и туры в Китай, Турцию, Таиланд, ОАЭ, Саудовскую Аравию, Германию, Испанию, Италию, Англию и другие страны. Также вы можете приобретать авиабилеты практически по всем направлениям не выходя из дома или Вашего офиса. Наша команда организует для Вас и Вашей семьи незабываемый отдых в лучших странах мира.',
+        footerText_en: 'offers you exclusive tours around Uzbekistan, as well as to the countries of Europe, Asia, South and North America, Australia. You can view, select and purchase tours to China, Turkey, Thailand, UAE, Saudi Arabia, Germany, Spain, Italy, England and other countries on our website. You can also purchase air tickets to almost all destinations without leaving your home or office. Our team will organize an unforgettable vacation for you and your family in the best countries of the world.',
+        footerText_uz: 'Sizga O\'zbekiston bo\'ylab, shuningdek, Yevropa, Osiyo, Janubiy va Shimoliy Amerika, Avstraliya mamlakatlariga eksklyuziv turlarni taklif etadi. Siz bizning veb-saytimizda Xitoy, Turkiya, Tailand, BAA, Saudiya Arabistoni, Germaniya, Ispaniya, Italiya, Angliya va boshqa mamlakatlarga sayohatlarni ko\'rishingiz, tanlashingiz va sotib olishingiz mumkin. Shuningdek, siz uyingiz yoki ofisingizdan chiqmasdan deyarli barcha yo\'nalishlarga aviachiptalarni xarid qilishingiz mumkin. Bizning jamoamiz siz va oilangiz uchun dunyoning eng yaxshi mamlakatlarida unutilmas dam olishni tashkil qiladi.',
+
+        footerText1_ru: 'Ваш комфорт и хорошее настроение – наша первостепенная задача, и поэтому приобретая любой билет, тур или другую продукцию наших партнеров, вы автоматически становитесь участником программы лояльности.',
+        footerText1_en: 'Your comfort and good mood is our primary goal, and therefore, by purchasing any ticket, tour or other products of our partners, you automatically become a member of the loyalty program.',
+        footerText1_uz: 'Sizning qulayligingiz va yaxshi kayfiyatingiz bizning asosiy maqsadimizdir va shuning uchun hamkorlarimizning istalgan chiptasi, sayohati yoki boshqa mahsulotlarini xarid qilish orqali siz avtomatik ravishda sodiqlik dasturiga a\'zo bo\'lasiz.',
+
+        footerText2_ru: 'U-TRAVEL® – Ваш надежный путеводитель в мир комфорта и счастья!',
+        footerText2_en: 'U-TRAVEL® is your reliable guide to the world of comfort and happiness!',
+        footerText2_uz: 'U-TRAVEL® - bu qulaylik va baxt olamiga bo\'lgan ishonchli qo\'llanma!',
+
+        TitleTable_ru: 'СТОИМОСТЬ ТУРА «В ПОИСКАХ ЗАТЕРЯННОГО КАРАВАНА»',
+        TitleTable_en: 'COST OF THE TOUR "IN SEARCH OF THE LOST CARAVAN"',
+        TitleTable_uz: '"Yo\'qotilgan karvonni izlashda" TURKIYAT NARXI',
+
+        peopleText_ru: 'На 1-го взрослого человека 780 долларов при группе от 10 человек.',
+        peopleText_en: 'For 1 adult 780 dollars for a group of 10 people. ',
+        peopleText_uz: '1 kattalar uchun 10 kishilik guruh uchun 780 dollar.',
+
+        liveText_ru: 'Проживание в следующих отелях:',
+        liveText_uz: 'Quyidagi mehmonxonalarda joylashtirish:',
+        liveText_en: 'Accommodation in the following hotels:',
+
+        tourTitle_ru: 'В стоимость тура также включено:',
+        tourTitle_en: 'The tour price also includes:',
+        tourTitle_uz: 'Ekskursiya narxiga quyidagilar ham kiradi:',
+
+        tourLink_ru: '•Туристический автомобиль с кондиционером с водителем во время поездки, трансферов.',
+        tourLink_en: '•Air-conditioned tourist car with a driver during the trip, transfers.',
+        tourLink_uz: '•Sayohat davomida haydovchi bilan konditsionerli turistik avtomobil, transferlar.',
+
+        tourLink1_ru: '•Проживание в отелях, включая завтрак.',
+        tourLink1_en: '•Accommodation in hotels, including breakfast.',
+        tourLink1_uz: '\n' +
+            '•Mehmonxonalarda joylashtirish, jumladan nonushta.',
+
+        tourLink2_ru: '•Все входные билеты на объекты, указанные в программе путешествия.',
+        tourLink2_en: '•All entrance fees to the objects indicated in the travel itinerary.',
+        tourLink2_uz: '•Sayohat marshrutida ko\'rsatilgan ob\'ektlarga barcha kirish to\'lovlari.',
+
+        tourLink3_ru: '•Билет на поезд «Шарк» Ургенч-Бухара, скоростной поезд Talgo-Афросиаб, Самарканд Ташкент.',
+        tourLink3_en: '• Ticket for the train "Sharq" Urgench-Bukhara, high-speed train Talgo-Afrosiab, Samarkand Tashkent.',
+        tourLink3_uz: '• “Sharq” Urganch-Buxoro poyezdiga, Talgo-Afrosiyob tezyurar poyezdiga chipta, Samarqand, Toshkent.',
+
+        tourLink4_ru: '•Питание (обед/ужин), за исключением последнего свободного дня в Ташкенте.',
+        tourLink4_en: '•Meals (lunch/dinner), except for the last free day in Tashkent.',
+        tourLink4_uz: '•Taomlar (tushlik/kechki ovqat), Toshkentdagi oxirgi bo‘sh kundan tashqari.\n',
+
+        tourLink5_ru: '•Круглосуточная агентская поддержка.',
+        tourLink5_en: '• Round the clock agency support.',
+        tourLink5_uz: '• Agentlikning kechayu kunduz qo\'llab-quvvatlashi.',
+
+        tourLink6_ru: '•Услуги гида во время всего тура.',
+        tourLink6_en: '•Services of a guide during the whole tour.',
+        tourLink6_uz: '• Tur davomida gid xizmatlari.',
+
+        thenText_ru: 'В стоимость тура не включено:',
+        thenText_uz: 'Ekskursiya narxiga quyidagilar kirmaydi:',
+        thenText_en: 'The tour price does not include:',
+
+        thenLink_ru: '•Личные расходы, дополнительные услуги.',
+        thenLink_en: '•Personal expenses, additional services.',
+        thenLink_uz: '•Shaxsiy xarajatlar, qo\'shimcha xizmatlar.',
+
+        thenLink1_ru: '•Международные авиабилеты туда и обратно.',
+        thenLink1_en: '•International air tickets there and back.',
+        thenLink1_uz: '•U yerda va orqaga xalqaro aviachiptalar.',
+
+        thenLink2_ru: '•ПЦР тест.',
+        thenLink2_en: '•PSR test',
+        thenLink2_uz: '•PSR test',
+
+    }
+]

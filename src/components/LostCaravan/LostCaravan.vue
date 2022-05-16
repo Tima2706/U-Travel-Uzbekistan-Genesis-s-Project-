@@ -2,7 +2,7 @@
   <div>
   <div v-for="d in listBtn" :key="d.id" class="btn-group row pb-5" role="group" aria-label="Basic example">
    <div class="col btn-intro" id="toolBtns" role="group">
-   <button  @click="onSelectDay(d)" type="button" :class="{active: d === activeItem}" class="btn btn-primary">{{d.btn}}</button>
+   <button  @click="onSelectDay(d)" type="button" :class="{active: d === activeItem}" class="btn btn-primary">{{d[[`btn_${$i18n.locale}`]]}}</button>
    </div>
   </div>
   <div id="printselectedpet" v-if="message">
@@ -165,7 +165,7 @@ export default {
       color: white;
     }
   .btn-intro{
-   margin-left: 15px;
+   margin-left: 25px;
   }
   .btn-group .btn-intro .btn:first-child{
    margin-left: 0px;

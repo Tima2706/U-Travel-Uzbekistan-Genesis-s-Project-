@@ -1,9 +1,9 @@
 <template>
-   <h5 class="pt-5" style="font-size: 24px; font-weight: 800">СТОИМОСТЬ ТУРА «В ПОИСКАХ ЗАТЕРЯННОГО КАРАВАНА»</h5>
-  <h6 class="pt-2" style="font-size: 20px; font-weight: 700">На 1-го взрослого человека 780 долларов при группе от 10 человек.</h6>
+   <h5 v-for="t in translate" :key="t.id"  class="pt-5" style="font-size: 24px; font-weight: 800">{{t[`TitleTable_${$i18n.locale}`]}}</h5>
+  <h6 v-for="t in translate" :key="t.id"  class="pt-2" style="font-size: 20px; font-weight: 700">{{t[`peopleText_${$i18n.locale}`]}}</h6>
   <div class="row pb-5 pt-3 gap-3">
     <div class="col">
-      <h6 class="pb-2" style="font-size: 16px; font-weight: 700">Проживание в следующих отелях:</h6>
+      <h6 v-for="t in translate" :key="t.id"  class="pb-2" style="font-size: 16px; font-weight: 700">{{t[`liveText_${$i18n.locale}`]}}</h6>
       <table>
         <tr>
           <th class="city">Город</th>
@@ -50,27 +50,32 @@
       </table>
     </div>
     <div class="col">
-      <h6 class="pb-2" style="font-size: 16px; font-weight: 700">В стоимость тура также включено:</h6>
-      <p style="padding-left: 10px"  class="information__text">
-        •Туристический автомобиль с кондиционером с водителем во время поездки, трансферов.
-        <br>•Проживание в отелях, включая завтрак.
-        <br>•Услуги гида во время всего тура.
-        <br>•Все входные билеты на объекты, указанные в программе путешествия.
-        <br>•Билет на поезд «Шарк» Ургенч-Бухара, скоростной поезд Talgo-Афросиаб, Самарканд Ташкент.
-        <br>•Питание (обед/ужин), за исключением последнего свободного дня в Ташкенте.
-        <br>•Круглосуточная агентская поддержка.
+      <h6 v-for="t in translate" :key="t.id"  class="pb-2" style="font-size: 16px; font-weight: 700">{{t[`tourTitle_${$i18n.locale}`]}}</h6>
+      <p v-for="t in translate" :key="t.id"  style="padding-left: 10px"  class="information__text">
+        {{t[`tourLink_${$i18n.locale}`]}}
+        <br>{{t[`tourLink1_${$i18n.locale}`]}}
+        <br>{{t[`tourLink2_${$i18n.locale}`]}}
+        <br>{{t[`tourLink3_${$i18n.locale}`]}}
+        <br>{{t[`tourLink4_${$i18n.locale}`]}}
+        <br>{{t[`tourLink5_${$i18n.locale}`]}}
+        <br>{{t[`tourLink6_${$i18n.locale}`]}}
       </p>
-      <h6 style="font-size: 16px; font-weight: 700">В стоимость тура не включено:</h6>
-      <p style="padding-left: 10px" class="information__text">•Личные расходы, дополнительные услуги.
-        <br>•Международные авиабилеты туда и обратно.
-        <br>•ПЦР тест.</p>
+      <h6 v-for="t in translate" :key="t.id" style="font-size: 16px; font-weight: 700">{{t[`thenText_${$i18n.locale}`]}}</h6>
+      <p v-for="t in translate" :key="t.id" style="padding-left: 10px" class="information__text">{{t[`thenLink_${$i18n.locale}`]}}
+        <br>{{t[`thenLink1_${$i18n.locale}`]}}
+        <br>{{t[`thenLink2_${$i18n.locale}`]}}</p>
     </div>
   </div>
 </template>
 
 <script>
+import {caravanMAin} from "@/Constants JS/zaminImages";
 export default {
-
+  data() {
+    return{
+      translate: caravanMAin,
+    }
+  }
 }
 </script>
 <style lang="scss" scoped>
