@@ -1,0 +1,26 @@
+.contacts{
+  &-card{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.16);
+    background-color: $white;
+    border: 1px solid transparent;
+    border-radius: 7px;
+  }
+  &__ul{
+    list-style: none;
+
+  }
+  &__ul{
+    padding-left: 0;
+     li{
+      padding-bottom: 24px;
+    }
+  }
+  &__wekend{
+    display: flex;
+    flex-direction: column;
+  }
+  &__subway{
+    font-size: 14px;
+    color: $grey;
+  }
+}

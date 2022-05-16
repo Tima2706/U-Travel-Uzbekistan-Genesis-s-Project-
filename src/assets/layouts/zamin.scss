@@ -1,0 +1,36 @@
+.zamin{
+  &__intro{
+    text-align: center;
+    align-items: center;
+  }
+  &__sub{
+    font-size: 24px;
+    font-weight: 800;
+  }
+  &-btn{
+    border: 1px solid transparent;
+    color: $white;
+    background-color: $blue;
+    border-radius: 5px;
+    padding: 13px 25px 15px 25px;
+    &:hover{
+      border: 1px solid $blue;
+      background-color: $white;
+      color: $blue;
+      transition: .5s;
+    }
+  }
+  &__title{
+    font-weight: 700;
+    font-size: 16px;
+  }
+  &__text{
+    font-size: 14px;
+    font-weight: 600;
+    color: $grey;
+  }
+  &__subtitle{
+    font-size: 12px;
+    font-weight: 700;
+  }
+}

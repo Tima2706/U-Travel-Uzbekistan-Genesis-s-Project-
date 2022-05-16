@@ -1,0 +1,11 @@
+.information{
+  &__title{
+    font-size: 16px;
+    font-weight: 700;
+  }
+  &__text{
+  color: $grey;
+    font-weight: 600;
+    font-size: 14px;
+  }
+}

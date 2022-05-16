@@ -1,0 +1,42 @@
+.chartak{
+  padding: 40px 0;
+  &-intro{
+    align-items: center;
+    text-align: center;
+  }
+  &__name{
+    font-size: 24px;
+    font-weight: 800;
+  }
+  &-btn{
+    padding: 13px 25px 15px 25px;
+    border: 1px solid transparent;
+    color: $white;
+    background-color: $blue;
+    border-radius: 7px;
+    &:hover{
+      transition: 0.5s;
+      color: $blue;
+      border: 1px solid $blue;
+      background-color: $white;
+    }
+  }
+  &-subtitle{
+    padding-bottom: 40px  ;
+  }
+  &__sub{
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+  &__text{
+    font-size: 14px;
+    font-weight: 600;
+    color: $grey;
+  }
+  &__title{
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,49 @@
+.client{
+  &-intro{
+    text-align: center;
+    padding-top: 40px;
+    &__text{
+      font-weight: 800;
+      font-size: 24px;
+    }
+  }
+  &-card{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.16);
+    background-color: $white;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 24px 25px 0px 24px;
+  }
+  &-card_second{
+    width: 103%;
+  }
+
+  &__sub{
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 24px;
+  }
+  &__text{
+    font-size: 14px;
+    font-weight: 600;
+    color: $grey;
+    &:last-child{
+      padding-bottom: 24px;
+    }
+  }
+  &__text-second{
+    padding-left: 10px;
+  }
+  &__subtitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: $grey;
+  }
+  &-card_txt{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+}

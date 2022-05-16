@@ -1,0 +1,70 @@
+{
+  "more": "More",
+  "reservation": {
+    "title": "Booking",
+    "text": "For the preparation or booking of tours, as well as issuing air tickets for the flights of Uzbekistan Airways, TURKISH AIRLINES and KOREAN AIR, please call + (998) 78 120 77-22 or the office of ATTO TRAVEL LLC » at the address: Republic of Uzbekistan, Tashkent, st. Mirzo Ulugbek, 101A",
+    "btn": "call now"
+
+  },
+  "home": {
+    "call": "order a call?",
+    "main": "Main"
+  },
+  "ticket": "YOUR TICKET TO \nA FAIRY TALE",
+   "travel": "START YOUR JOURNEY",
+  "information": {
+    "title": "U-TRAVEL® (ООО «ATTO-TRAVEL»)",
+    "text": "offers you exclusive tours around Uzbekistan, as well as to the countries of Europe, Asia, South and North America, Australia. You can view, select and purchase tours to China, Turkey, Thailand, UAE, Saudi Arabia, Germany, Spain, Italy, England and other countries on our website. You can also purchase air tickets to almost all destinations without leaving your home or office. Our team will organize an unforgettable vacation for you and your family in the best countries of the world.",
+    "text2": "Your comfort and good mood is our primary goal, and therefore, by purchasing any ticket, tour or other products of our partners, you automatically become a member of the loyalty program.",
+    "text3": "\nU-TRAVEL® is your reliable guide to the world of comfort and happiness!"
+  },
+  "footer": {
+    "call": "order a call?",
+    "text-start": "ATTO TRAVEL LLC Republic of Uzbekistan, Tashkent, st. Mirzo Ulugbek, 101A",
+    "text": "© 2022 ATTO TRAVEL LLC. Services are licensed.\n\nAll rights reserved."
+  },
+  "alltours": {
+    "text": "All Tours"
+  },
+  "client": {
+    "title": "Services provided to corporate clients",
+    "titleSubtitle": "provides a full range of services in the field of business and corporate tourism: from individual business trips to offsite corporate events. We offer the best prices in the tourism market.",
+    "sub": "to corporative clients",
+    "caption": "— one of the most intensively developing areas of business tourism, which we are successfully engaged in. This abbreviation means four main types of business events:",
+    "text": "U-TRAVEL offers you:",
+    "firstCard": {
+      "text1": "Organization of exhibitions and conferences, business meetings and business trips;",
+      "text2": "Organization of corporate events;",
+      "text3": "Hotel booking;",
+      "text4": "Sale of air and railway tickets",
+      "text5": "Transport rental and transfers;",
+      "text6": "Visa support and insurance;",
+      "text7": "Incentive tours;",
+      "text8": "VIP service at airports;",
+      "text9": "Mutually beneficial terms of cooperation;",
+      "text10": "Individual approach, personal manager;",
+      "text11": "Travel budgeting, cost optimization;",
+      "text12": "Mutually beneficial terms of cooperation."
+    },
+
+    "exhibition": "Exhibitions and conferences",
+    "conferences": {
+      "text1": "• organization of conferences and participation in exhibitions (both in the hotel and separately, from halls for holding ceremonial\n           meetings and celebrations\n           small rooms for business meetings and negotiations);",
+      "text2": "• provision of air and railway tickets;",
+      "text3": "• selection of premises/halls for events;",
+      "text4": "• equipping with any technical (audio and video equipment), printing and telecommunication facilities\n           (microphones, projectors, badges, pens,\n           notepads, etc.);",
+      "text5": "• organization of catering for participants, including organization of receptions, banquets, etc.;",
+      "text6": "• organization of transport services of any level for meetings/seeing off participants of the event;",
+      "text7": "• provision of interpreter services;",
+      "text8": "• for major exhibitions - information, entrance tickets, organization of transport for the delivery of participants, the possibility\n           stand organization, etc.;",
+      "text9": "• organization of VIP service at airports;",
+      "text10": "• a step by step report on the preparation and implementation of the program;",
+      "text11": "• guaranteed places in hotels of both economy class and luxury class;",
+      "text12": "• budgeting with a detailed calculation of the cost of services;",
+      "text13": "• car rental of any class;",
+      "text14": "•\tvisa support;",
+      "text15": "• insurance. "
+    },
+    "ourClients": "Our corporate clients"
+  }
+}

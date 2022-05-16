@@ -1,0 +1,70 @@
+{
+  "more": "Ko'proq",
+  "reservation": {
+    "title": "bron qilish",
+    "text": "Turlarni tayyorlash yoki bron qilish, shuningdek, “O‘zbekiston havo yo‘llari” MAK, TURKISH AIRLINES va KOREAN AIR reyslariga aviachiptalarni rasmiylashtirish uchun + (998) 78 120 77-22 telefon raqamiga yoki “ATTO TRAVEL” MChJ ofisiga quyidagi manzil bo‘yicha qo‘ng‘iroq qiling: O'zbekiston Respublikasi, Toshkent, ko'ch. Mirzo Ulug‘bek, 101A",
+    "btn": "hozir qo'ng'iroq qiling"
+
+  },
+  "home": {
+    "call": "Qo'ng'iroq qilish ?",
+    "main": "Asosiy"
+  },
+    "ticket": "ERTAKGA SIZNING CHIPTANGIZ",
+    "travel": "Sayohatingizni boshlang",
+  "information": {
+    "title": "U-TRAVEL® (ООО «ATTO-TRAVEL»)",
+    "text": "Sizga O'zbekiston bo'ylab, shuningdek, Yevropa, Osiyo, Janubiy va Shimoliy Amerika, Avstraliya mamlakatlariga eksklyuziv turlarni taklif etadi. Siz bizning veb-saytimizda Xitoy, Turkiya, Tailand, BAA, Saudiya Arabistoni, Germaniya, Ispaniya, Italiya, Angliya va boshqa mamlakatlarga sayohatlarni ko'rishingiz, tanlashingiz va sotib olishingiz mumkin. Shuningdek, siz uyingiz yoki ofisingizdan chiqmasdan deyarli barcha yo'nalishlarga aviachiptalarni xarid qilishingiz mumkin. Bizning jamoamiz siz va oilangiz uchun dunyoning eng yaxshi mamlakatlarida unutilmas dam olishni tashkil qiladi.",
+    "text2": "Sizning qulayligingiz va yaxshi kayfiyatingiz bizning asosiy maqsadimizdir va shuning uchun hamkorlarimizning istalgan chiptasi, sayohati yoki boshqa mahsulotlarini xarid qilish orqali siz avtomatik ravishda sodiqlik dasturiga a'zo bo'lasiz.",
+    "text3": "U-TRAVEL® - bu qulaylik va baxt olamiga bo'lgan ishonchli qo'llanma!"
+  },
+  "footer": {
+    "call": "Qo'ng'roq qilish ?",
+    "text-start": "ATTO TRAVEL MChJ O'zbekiston Respublikasi, Toshkent, ko'ch. Mirzo Ulug‘bek, 101A\n",
+    "text": "© 2022 ATTO TRAVEL MChJ. Xizmatlar litsenziyalangan.\n\nBarcha huquqlar himoyalangan."
+  },
+  "alltours":{
+  "text": "Barcha Turlar"
+},
+  "client": {
+    "title": "Korporativ mijozlarga ko'rsatiladigan xizmatlar",
+    "titleSubtitle": "ishbilarmonlik va korporativ turizm sohasida xizmatlarning to'liq spektrini taqdim etadi: yakka tartibdagi xizmat safarlaridan tortib, kompaniyadan tashqaridagi korporativ tadbirlargacha. Biz turizm bozorida eng yaxshi narxlarni taklif qilamiz.",
+    "sub": "korporativ mijozlarga",
+    "caption": "— ishbilarmonlik turizmining eng jadal rivojlanayotgan yo‘nalishlaridan biri bo‘lib, u bilan biz muvaffaqiyatli shug‘ullanmoqdamiz. Ushbu qisqartma biznes tadbirlarining to'rtta asosiy turini anglatadi:",
+    "text": "U-TRAVEL sizga taklif qiladi:",
+    "firstCard": {
+      "text1": "Ko'rgazmalar va konferentsiyalar, ish uchrashuvlari va xizmat safarlarini tashkil etish;",
+      "text2": "Korporativ tadbirlarni tashkil etish;",
+      "text3": "mehmonxonani bron qilish;",
+      "text4": "Havo va temir yo'llarni sotish chiptalar",
+      "text5": "transport ijarasi va transferlar;",
+      "text6": "\nViza qo'llab-quvvatlash va sug'urta;",
+      "text7": "\nRag'batlantiruvchi sayohatlar;",
+      "text8": "\nAeroportlarda VIP xizmati;",
+      "text9": "\nHamkorlikning o'zaro manfaatli shartlari;",
+      "text10": "Individual yondashuv, shaxsiy menejer;",
+      "text11": "\nSayohat byudjetini tuzish, xarajatlarni optimallashtirish;",
+      "text12": "\nHamkorlikning o'zaro manfaatli shartlari."
+    },
+
+    "exhibition": "Выставки и конференции",
+    "conferences": {
+      "text1": "\n• konferentsiyalar tashkil etish va ko'rgazmalarda ishtirok etish (mehmonxonada ham, tantanali marosimlarni o'tkazish uchun zallardan alohida)\n          uchrashuvlar va bayramlar\n          ish uchrashuvlari va muzokaralar uchun kichik xonalar);",
+      "text2": "• havo va temir yo'l chiptalari bilan ta'minlash;",
+      "text3": "• tadbirlar uchun binolar/zallarni tanlash;",
+      "text4": "\n• har qanday texnik (audio va video texnika), matbaa va telekommunikatsiya vositalari bilan jihozlash\n          (mikrofonlar, proyektorlar, nishonlar, qalamlar,\n          bloknotlar va boshqalar);",
+      "text5": "• ishtirokchilar uchun ovqatlanishni tashkil etish, shu jumladan ziyofatlar, banketlar va boshqalarni tashkil etish;",
+      "text6": "• tadbir ishtirokchilarini kutib olish/uzatish uchun istalgan darajadagi transport xizmatlarini tashkil etish;",
+      "text7": "• tarjimon xizmatlarini ko'rsatish;",
+      "text8": "• yirik ko'rgazmalar uchun - ma'lumot, kirish chiptalari, ishtirokchilarni etkazib berish uchun transportni tashkil etish, imkoniyat;\n          stend tashkil etish va boshqalar;",
+      "text9": "• aeroportlarda VIP xizmatini tashkil etish;",
+      "text10": "• dasturni tayyorlash va amalga oshirish bo'yicha bosqichma-bosqich hisobot;",
+      "text11": "\n• ham ekonom, ham lyuks toifadagi mehmonxonalardagi kafolatlangan joylar;",
+      "text12": "• xizmatlar narxining batafsil hisob-kitobi bilan byudjetlashtirish;",
+      "text13": "\n• istalgan toifadagi avtomashinalarni ijaraga olish;",
+      "text14": "• vizani qo'llab-quvvatlash;",
+      "text15": "• sug'urta."
+    },
+    "ourClients": "\nBizning korporativ mijozlarimiz"
+ }
+}
